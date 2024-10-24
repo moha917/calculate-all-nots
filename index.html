@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a1</title>
+    <link rel="stylesheet" href="a1.css">
+</head>
+<body>
+       <h1>calculator</h1>
+
+    <div class="update">
+        <label for="w">number of material :</label>
+        <input type="tel" id="w"  placeholder="number"  max="10" maxlength="2" min="6" required >
+        <button onclick="fire()" id="ww">Creat</button>
+    </div>
+    <div class="a">
+<div class="m1">
+<label for="m11">material 1 :</label> 
+<input  onkeyup="getTotal() " type="number" id="m11" placeholder="number">
+<label for="m12">CF</label> 
+<input  onkeyup="getTotal()" type="number" id="m12" placeholder="number">
+<label for="m13">m1</label> 
+<input  onkeyup="getTotal()" type="number" id="m13" placeholder=" ">
+</div>
+<div class="m2">
+<label for="m21">material 2 :</label>
+<input onkeyup="getTotal() " type="number" id="m21" placeholder="number">
+<label for="m22">CF</label>
+<input onkeyup="getTotal() " type="number" id="m22"placeholder="number" >
+<label for="m23">m2</label>
+<input onkeyup="getTotal()" type="number" id="m23" placeholder="">
+</div>
+<div class="m3">
+<label for="m31">material 3 :</label>
+<input onkeyup="getTotal() " type="number" id="m31" placeholder="number">
+<label for="m32">CF</label>
+<input onkeyup="getTotal()" type="number" id="m32" placeholder="number">
+<label for="m33">m3</label>
+<input onkeyup="getTotal()" type="number" id="m33" placeholder="">
+</div>
+<div class="m4">
+<label for="m41">material 4 :</label>
+<input onkeyup="getTotal() " type="number" id="m41" placeholder="number">
+<label for="m42">CF</label>
+<input onkeyup="getTotal()" type="number" id="m42" placeholder="number">
+<label for="m43">m4</label>
+<input onkeyup="getTotal()" type="number" id="m43" placeholder="">
+</div>        
+<div class="m5">
+<label for="m51">material 5 :</label>
+<input  onkeyup="getTotal() " type="number" id="m51" placeholder="number">
+<label for="m52">CF</label>
+<input  onkeyup="getTotal()" type="number" id="m52" placeholder="number">
+<label for="m53">m5</label>
+<input  onkeyup="getTotal()" type="number" id="m53" placeholder="">
+</div>
+<div class="m6">
+<label for="m61">material 6 :</label>
+<input onkeyup="getTotal() " type="number" id="m61" placeholder="number">
+<label for="m62">CF</label>
+<input onkeyup="getTotal()" type="number" id="m62" placeholder="number">
+<label for="m63">m6</label>
+<input onkeyup="getTotal()" type="number" id="m63" placeholder="">
+</div>
+<div class="m7">
+<label for="m71">material 7 :</label>
+<input onkeyup="getTotal() " type="number" id="m71" placeholder="number">
+<label for="m72">CF</label>
+<input onkeyup="getTotal()" type="number" id="m72" placeholder="number">
+<label for="m73">m7</label>
+<input onkeyup="getTotal()" type="number" id="m73" placeholder="">
+</div>
+<div class="m8">
+<label for="m81">material 8 :</label>
+<input onkeyup="getTotal() " type="number" id="m81" placeholder="number">
+ <label for="m82">CF</label>
+<input onkeyup="getTotal()" type="number" id="m82" placeholder="number"> 
+<label for="m83">m8</label>
+<input onkeyup="getTotal()" type="number" id="m83" placeholder=""> 
+</div>     
+<div class="m9">
+<label for="m91">material 9 :</label>
+<input  onkeyup="getTotal() " type="number" id="m91" placeholder="number">
+<label for="m92">CF</label>
+<input  onkeyup="getTotal()" type="number" id="m92" placeholder="number">
+<label for="m93">m9</label>
+<input  onkeyup="getTotal()" type="number" id="m93" placeholder="">
+</div>     
+<div class="m10">
+<label for="m101">material 10 :</label>
+<input onkeyup="getTotal() " type="number" id="m101" placeholder="number ">
+<label for="m102">CF</label>   
+<input onkeyup="getTotal()" type="number" id="m102" placeholder="number">
+<label for="m103">m10</label> 
+<input onkeyup="getTotal()" type="number" id="m103" placeholder="">   
+</div>
+
+  <button id="mix" onclick="calcy()">calculate</button>
+    </div>
+     <div class="small">
+ <small id="total"></small>
+    </div> 
+    <div class="rt">
+        <button onclick="ret()" id="return">return</button>
+    </div>
+
+    <script src="a1.js"></script>
+</body>
+</html>
